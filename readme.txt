@@ -2,7 +2,7 @@ This project had us create a CRUD (Create, Read, Update, Delete) app for trackin
 
 To run:
 copy the provided files to your directory
-Setup Node and related frameworks, et. (See package.json)
+Setup Node and related frameworks, etc. (See package.json)
 Setup a MySQL server and update "dbcon.js" with the connection information
 
 Start your website and visit:  yourwebsiteaddress/reset-table
