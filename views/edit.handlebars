@@ -1,0 +1,14 @@
+
+<h2>Edit an exercise</h2>
+<form>
+  Name:&nbsp;&nbsp;&nbsp;<input id="editName" type="text" name="name" value={{result.name}}></br>
+  Reps:&nbsp;&nbsp;&nbsp;&nbsp;<input id="editReps" type="text" name="reps" value={{result.reps}}></br>
+  Weight:&nbsp;<input id="editWeight" type="text" name="weight" value={{result.weight}}>&nbsp;&nbsp;&nbsp;
+  lbs&nbsp;<input id="editlbsRad" type="radio" name="weightType" {{usingLbs}}>
+  &nbsp;&nbsp;kg&nbsp;<input id="editkgRad" type="radio" name="weightType" {{usingKg}}></br>
+  Date:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="editDate" type="date" name="date" value={{result.date}}></br>
+  <input id="editID" type="hidden" name="hiddenID" value={{result.id}}>
+  <input id="editExerButton" type="submit" value="Submit Edit">
+</form>
+
+<script src="edit.js"></script>
